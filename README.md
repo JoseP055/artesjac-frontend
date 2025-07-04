@@ -1,10 +1,10 @@
-# 🎨 ArtesJAC Frontend
+# ArtesJAC Frontend
 
 **ArtesJAC** is a digital marketplace for local handmade art and crafts. This repository contains the frontend of the platform, built using **React.js**, focused on providing a responsive and intuitive user interface.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This application allows users to:
 
@@ -17,7 +17,7 @@ This frontend communicates with a backend built in Node.js/Express and stores da
 
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - **React.js**
 - **React Router DOM**
@@ -28,15 +28,15 @@ This frontend communicates with a backend built in Node.js/Express and stores da
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### ✅ Prerequisites
+### Prerequisites
 
 - Node.js and npm installed
 - Git installed
 - Backend server running (`artesjac-backend`)
 
-### 🔨 Installation
+### Installation
 
 ```bash
 git clone https://github.com/your-username/artesjac-frontend.git

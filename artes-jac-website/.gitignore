@@ -1,0 +1,12 @@
+echo 'node_modules/
+build/
+.env.local
+.env.development.local
+.env.production
+.idea/
+.vscode/
+.DS_Store
+*.log
+*.tgz
+.npm/
+.eslintcache' > .gitignore

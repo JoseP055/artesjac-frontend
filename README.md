@@ -4,7 +4,7 @@
 
 ---
 
-## Project Overview
+## 🖼️ Project Overview
 
 This application allows users to:
 
@@ -17,28 +17,32 @@ This frontend communicates with a backend built in Node.js/Express and stores da
 
 ---
 
-## Technologies Used
+## ⚙️ Technologies Used
 
 - **React.js**
-- **React Router DOM**
-- **Axios**
-- **Tailwind CSS** or **Bootstrap** (depending on preference)
-- **Context API / Redux** (optional for state management)
+- **React Router DOM v6**
+- **Tailwind CSS** or **Bootstrap**
+- **Context API** or **Redux** (for state management)
 - **Git & GitHub** (version control)
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
-### Prerequisites
+### ✅ Prerequisites
 
 - Node.js and npm installed
 - Git installed
 - Backend server running (`artesjac-backend`)
 
-### Installation
+---
+
+### 🧩 Installation
 
 ```bash
-git clone https://github.com/your-username/artesjac-frontend.git
+git clone https://github.com/JoseP055/artesjac-frontend.git
 cd artesjac-frontend
-npm install
+npm install react-router-dom@6
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm start

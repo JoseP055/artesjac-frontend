@@ -1,12 +1,15 @@
 
-import './App.css';
+import { ThemeProvider } from './context/ThemeContext';
+import { AppRouter } from './routes/AppRouter';
+import './styles/global.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Artes JAC</h1>
-      </header>
+      <ThemeProvider>
+        <AppRouter />
+      </ThemeProvider>
     </div>
   );
 }

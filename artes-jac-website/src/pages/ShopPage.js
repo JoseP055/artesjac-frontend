@@ -37,6 +37,9 @@ const normalizeCategory = (cat) => {
         wood: "escultura",       // si luego querés 'madera', cambiá aquí y en el sidebar
         sculpture: "escultura",
         esculturas: "escultura",
+        others: "otros",
+        otro: "otros",
+        otros: "otros",
     };
     return map[c] || c || "otros";
 };

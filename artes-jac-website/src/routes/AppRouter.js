@@ -23,8 +23,10 @@ import { BuyerDashboard } from '../pages/dashboards/BuyerDashboard';
 import { SellerDashboard } from '../pages/dashboards/SellerDashboard';
 
 import { SellerInventory } from '../pages/dashboards/SellerInventory';
-import { SellerOrders } from '../pages/dashboards/SellerOrders';
+// CORREGIDO: Importación como default en lugar de named
+import SellerOrders from '../pages/dashboards/SellerOrders';
 import { SellerStoreProfile } from '../pages/dashboards/SellerStoreProfile';
+// CORREGIDO: SellerAnalytics usa named export, no default
 import { SellerAnalytics } from '../pages/dashboards/SellerAnalytics';
 import { SellerProfile } from '../pages/SellerProfile';
 
@@ -94,14 +96,18 @@ export const AppRouter = () => {
                                     </AuthenticatedRoute>
                                 }
                             />
+
+                            {/* Order Confirmation - Ruta actualizada para usar código de pedido */}
                             <Route
-                                path="/order-confirmation/:id?"
+                                path="/order-confirmation/:id"
                                 element={
                                     <AuthenticatedRoute>
                                         <OrderConfirmation />
                                     </AuthenticatedRoute>
                                 }
                             />
+
+                            {/* Orders */}
                             <Route
                                 path="/orders"
                                 element={

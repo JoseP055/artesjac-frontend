@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../modules/auth/AuthContext';
-import mx from '../../assets/images/flag-mexico.png';
-import us from '../../assets/images/flag-usa.png';
-import mk from '../../assets/images/flag-cr.png';
 import '../../styles/layout.css';
 
 export const Navbar = () => {
